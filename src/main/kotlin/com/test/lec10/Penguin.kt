@@ -23,4 +23,7 @@ class Penguin(
         super<Swimable>.act()
         super<Flyable>.act()
     }
+
+    override val swimability: Int
+        get() = TODO("Not yet implemented")
 }
